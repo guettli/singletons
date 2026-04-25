@@ -45,13 +45,14 @@ allow competition to exist.
 
 ## The Singleton List
 
-Applying the **10x Dominance Rule**, the following tools qualify as Singleton Implementations. Their closest rivals, while functional, occupy niche or legacy positions.
+Applying the **10x Dominance Rule**, the following tools qualify as Singleton Implementations. The table is sorted by the **Dominance Ratio** (Singleton Adoption / Competitor Adoption).
 
-| Tool | Context | Est. Adoption | Closest Competitor | Est. Adoption |
-| :--- | :--- | :--- | :--- | :--- |
-| **SQLite** | Embedded Database | ~95%+ | BerkeleyDB | <1% |
-| **Git** | Version Control | ~94% | Subversion (SVN) | ~4% |
-| **Docker** | Container Engine | ~80% | Podman | ~6% |
-| **Linux** | Cloud/Server OS | ~91% | Windows Server | ~7% |
+| Tool | Context | Est. Adoption | Closest Competitor | Est. Adoption | Ratio |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **SQLite** | Embedded Database | ~98% | BerkeleyDB | <1% | **~98x** |
+| **Kubernetes** | Orchestration | ~62% | HashiCorp Nomad | ~2% | **~31x** |
+| **Git** | Version Control | ~93% | Subversion (SVN) | ~5% | **~18x** |
+| **Docker** | Development Tooling | ~77% | Podman | ~14%* | **~5.5x** |
+| **Linux** | Public Cloud OS | ~90% | Windows Server | ~10% | **~9x** |
 
-*Estimates based on aggregated data from Stack Overflow Developer Surveys, CNCF reports, and industry usage statistics.*
+*\*Note: As seen with Docker vs. Podman, some former Singletons are losing their 10x status as the "Pantheon" begins to re-emerge. Estimates based on Stack Overflow 2023/2024 surveys and CNCF landscape reports.*
