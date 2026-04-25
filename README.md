@@ -20,13 +20,12 @@ In software engineering, we have a name for a unique instance that stands alone:
 ## The Rise of the Singleton
 
 When an open-source tool reaches a certain "Threshold of Dominance", it stops being just a choice.
-It becomes a **Singleton Implementation**. Much like a Monotheistic god, it becomes the "Single
-Source of Truth" that everyone in the industry must agree on to cooperate.
+It becomes a **Singleton Implementation**.
 
-This article maintains a registry of these "Open Source Monopolies"—the tools that do one thing so
-well that the second alternative has been rendered obsolete.
+This article maintains a list of these "Open Source Monopolies"—the tools that do one thing so well
+that the second alternative has been almost rendered obsolete.
 
-### Defining the Singleton
+## Defining the Singleton
 
 To distinguish a Singleton from a merely popular tool or a standard, we use a specific "Threshold of
 Dominance":
@@ -37,7 +36,6 @@ Dominance":
 
 When the gap between the first and second place is this vast, the "Pantheon" of choice has
 effectively collapsed into a single implementation.
-
 
 **Implementation, Not Specification:** A Singleton must be a concrete tool or codebase. Abstract
 standards (like **TCP/IP**, **HTTP**, or **SQL**) are not Singletons; they are the protocols that
@@ -60,7 +58,18 @@ table is sorted by the **Dominance Ratio** (Singleton Adoption / Competitor Adop
 "Pantheon" begins to re-emerge. Estimates based on Stack Overflow 2023/2024 surveys and CNCF
 landscape reports.*
 
+## Drawbacks
+
+While Singletons provide industry-wide standardisation, they come with significant risks:
+
+* **Innovation Stagnation:** Without the pressure of a close competitor, the incentive to simplify
+    or improve the tool diminishes.
+* **Single Point of Failure:** A critical security vulnerability or architectural flaw in a
+    Singleton becomes a systemic risk for the entire software industry.
+* **High Barrier to Entry:** New paradigms are often discarded simply because they lack the massive
+    ecosystem and integration support of the reigning Singleton.
+
 ## More
 
-- [Deadends of IT](https://github.com/guettli/deadends-of-it)
-- [Thomas WOL: Working out Loud](https://github.com/guettli/wol)
+* [Deadends of IT](https://github.com/guettli/deadends-of-it)
+* [Thomas WOL: Working out Loud](https://github.com/guettli/wol)
