@@ -53,7 +53,7 @@ table is sorted by the **Dominance Ratio** (Singleton Adoption / Competitor Adop
 | **Python** | Machine Learning | ~87% | R | ~4% | **~21.7x** |
 | **Git** | Version Control | ~93% | Subversion (SVN) | ~5% | **~18x** |
 | **Bash** | Shell Scripting | ~85% | Zsh | ~5% | **~17x** |
-| **Flutter**¹ | Cross-platform Self-Rendering UI | ~42% | Qt (Mobile/Desktop) | ~3% | **~14x** |
+| **Flutter** | Cross-platform Self-Rendering UI | ~42% | Qt (Mobile/Desktop) | ~3% | **~14x** |
 | **Golang** | Kube Operator Dev | ~71% | Python | ~7% | **~10.1x** |
 | **Linux** | Public Cloud OS | ~90% | Windows Server | ~10% | **~9x** |
 | **Docker** | Development Tooling | ~77% | Podman | ~14%* | **~5.5x** |
@@ -62,9 +62,11 @@ table is sorted by the **Dominance Ratio** (Singleton Adoption / Competitor Adop
 "Pantheon" begins to re-emerge. Estimates based on Stack Overflow 2023/2024 surveys and CNCF
 landscape reports.*
 
-*¹ React Native is excluded from this comparison because it relies on native host-platform widgets.
-Flutter is a Singleton specifically in the category of frameworks that provide their own
-self-contained rendering engine.*
+### Notes on Classification
+
+**Flutter vs. React Native:** React Native is excluded from the "Self-Rendering" comparison because it relies on native host-platform widgets (the "Bridge" approach). Flutter is a Singleton specifically within the category of frameworks that provide their own self-contained rendering engine (Skia/Impeller).
+
+**C and C++:** These are excluded from the list because they are languages (specifications) rather than specific implementations. Their compiler ecosystem remains a classic "Pantheon" (GCC, Clang, MSVC) where no single implementation reaches the 10x dominance threshold.
 
 ## Drawbacks
 
