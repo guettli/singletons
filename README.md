@@ -25,3 +25,15 @@ Source of Truth" that everyone in the industry must agree on to cooperate.
 
 This article maintains a registry of these "Open Source Monopolies"—the tools that do one thing so
 well that the second alternative has been rendered obsolete.
+
+### Defining the Singleton
+
+To distinguish a Singleton from a merely popular tool, we use a single quantitative "Threshold of
+Dominance":
+
+> **The 10x Dominance Rule:** A Singleton is defined by an adoption rate at least **10 times
+    greater** than its closest competitor, effectively rendering the runner-up a niche alternative
+    rather than a viable general-purpose rival.
+
+When the gap between the first and second place is this vast, the "Pantheon" of choice has
+effectively collapsed into a single implementation.
