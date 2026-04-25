@@ -52,6 +52,7 @@ table is sorted by the **Dominance Ratio** (Singleton Adoption / Competitor Adop
 | **Kubernetes** | Orchestration | ~62% | HashiCorp Nomad | ~2% | **~31x** |
 | **Python** | Machine Learning | ~87% | R | ~4% | **~21.7x** |
 | **Git** | Version Control | ~93% | Subversion (SVN) | ~5% | **~18x** |
+| **Bash** | Shell Scripting | ~85% | Zsh | ~5% | **~17x** |
 | **Flutter**¹ | Cross-platform Self-Rendering UI | ~42% | Qt (Mobile/Desktop) | ~3% | **~14x** |
 | **Golang** | Kube Operator Dev | ~71% | Python | ~7% | **~10.1x** |
 | **Linux** | Public Cloud OS | ~90% | Windows Server | ~10% | **~9x** |
