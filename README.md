@@ -50,13 +50,20 @@ table is sorted by the **Dominance Ratio** (Singleton Adoption / Competitor Adop
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **SQLite** | Embedded Database | ~98% | BerkeleyDB | <1% | **~98x** |
 | **Kubernetes** | Orchestration | ~62% | HashiCorp Nomad | ~2% | **~31x** |
+| **Python** | Machine Learning | ~87% | R | ~4% | **~21.7x** |
 | **Git** | Version Control | ~93% | Subversion (SVN) | ~5% | **~18x** |
-| **Docker** | Development Tooling | ~77% | Podman | ~14%* | **~5.5x** |
+| **Flutter**¹ | Cross-platform Self-Rendering UI | ~42% | Qt (Mobile/Desktop) | ~3% | **~14x** |
+| **Golang** | Kube Operator Dev | ~71% | Python | ~7% | **~10.1x** |
 | **Linux** | Public Cloud OS | ~90% | Windows Server | ~10% | **~9x** |
+| **Docker** | Development Tooling | ~77% | Podman | ~14%* | **~5.5x** |
 
 *\*Note: As seen with Docker vs. Podman, some former Singletons are losing their 10x status as the
 "Pantheon" begins to re-emerge. Estimates based on Stack Overflow 2023/2024 surveys and CNCF
 landscape reports.*
+
+*¹ React Native is excluded from this comparison because it relies on native host-platform widgets.
+Flutter is a Singleton specifically in the category of frameworks that provide their own
+self-contained rendering engine.*
 
 ## Drawbacks
 
