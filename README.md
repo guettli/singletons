@@ -42,3 +42,16 @@ effectively collapsed into a single implementation.
 **Implementation, Not Specification:** A Singleton must be a concrete tool or codebase. Abstract
 standards (like **TCP/IP**, **HTTP**, or **SQL**) are not Singletons; they are the protocols that
 allow competition to exist.
+
+## The Singleton List
+
+Applying the **10x Dominance Rule**, the following tools qualify as Singleton Implementations. Their closest rivals, while functional, occupy niche or legacy positions.
+
+| Tool | Context | Est. Adoption | Closest Competitor | Est. Adoption |
+| :--- | :--- | :--- | :--- | :--- |
+| **SQLite** | Embedded Database | ~95%+ | BerkeleyDB | <1% |
+| **Git** | Version Control | ~94% | Subversion (SVN) | ~4% |
+| **Docker** | Container Engine | ~80% | Podman | ~6% |
+| **Linux** | Cloud/Server OS | ~91% | Windows Server | ~7% |
+
+*Estimates based on aggregated data from Stack Overflow Developer Surveys, CNCF reports, and industry usage statistics.*
