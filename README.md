@@ -48,6 +48,8 @@ table is sorted by the **Dominance Ratio** (Singleton Adoption / Competitor Adop
 
 | Tool | Context | Est. Adoption | Closest Competitor | Est. Adoption | Ratio |
 | :--- | :--- | :--- | :--- | :--- | :--- |
+| **ffmpeg** | Media Processing | ~99% | GStreamer | <1% | **>100x** |
+| **curl** | CLI Data Transfer | ~98% | wget | ~2% | **~49x** |
 | **SQLite** | Embedded Database | ~98% | BerkeleyDB | <1% | **~98x** |
 | **Kubernetes** | Orchestration | ~62% | HashiCorp Nomad | ~2% | **~31x** |
 | **Python** | Machine Learning | ~87% | R | ~4% | **~21.7x** |
