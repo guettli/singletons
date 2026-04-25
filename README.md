@@ -56,3 +56,8 @@ Applying the **10x Dominance Rule**, the following tools qualify as Singleton Im
 | **Linux** | Public Cloud OS | ~90% | Windows Server | ~10% | **~9x** |
 
 *\*Note: As seen with Docker vs. Podman, some former Singletons are losing their 10x status as the "Pantheon" begins to re-emerge. Estimates based on Stack Overflow 2023/2024 surveys and CNCF landscape reports.*
+
+## More
+
+- [Deadends of IT](https://github.com/guettli/deadends-of-it)
+- [Thomas WOL: Working out Loud](https://github.com/guettli/wol)
